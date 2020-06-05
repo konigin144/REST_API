@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Hello there!</h1>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<table style="width:800px">
+    <thead>
+        <tr>
+            <th>Przedmiot</th>
+            <th>Rodzaj zaliczenia</th>
+            <th>Data</th>
+            <th>Godzina</th>
+            <th>Inne informacje</th>
+        </tr>
+    </thead>
+    {% for event in db.events.values() %}
+    <tbody>
+        <tr>
+            <td>{{  event.subject  }}</td>
+            <td>{{  event.type  }}</td>
+            <td>{{ event.date }}</td>
+            <td>{{ event.time }}</td>
+            <td>{{ event.other }}</td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
+{% endblock %}
