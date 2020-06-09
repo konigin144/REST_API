@@ -1,37 +1,25 @@
 events:
-  '58':
+  e88:
     subject: Technologie Sieciowe
     type: Egzamin
     date: '2020-06-26'
     time: '12:00'
     other: ''
-  '88':
-    subject: Technologie Sieciowe
-    type: Egzamin
-    date: '2020-06-26'
-    time: '12:00'
-    other: ''
-  '70':
-    subject: Technologie Sieciowe
-    type: Egzamin
-    date: '2020-06-26'
-    time: '12:00'
-    other: ''
-  '28':
+  e75:
     subject: Bazy Danych
+    type: Kolokwium
+    date: '2020-06-23'
+    time: 08:30
+    other: Moodle
+  e61:
+    subject: Systemy Operacyjne
     type: Egzamin
-    date: '2020-06-22'
-    time: ''
+    date: '2020-06-19'
+    time: '10:00'
     other: ''
-  '86':
-    subject: Technologie Sieciowe
-    type: Egzamin
-    date: '2020-06-26'
-    time: '12:00'
-    other: ''
-  '73':
-    subject: Podstawy Techniki Mikroprocesorowej
-    type: Sprawozdanie
-    date: '2020-06-09'
+  e74:
+    subject: "J\u0119zyki i Paradygmaty Programowania"
+    type: Zadania
+    date: '2020-06-16'
     time: ''
-    other: elo xd
+    other: Erlang

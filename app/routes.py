@@ -78,11 +78,11 @@ def add():
         global db
         Load()
 
-        eventID = ''
+        eventID = 'e'
         x = 0
         while(True):
             x = random.randint(1,100)
-            eventID = str(x)
+            eventID += str(x)
             if(eventID not in db):
                 break
 
@@ -106,11 +106,11 @@ def put_event():
     global db
     Load()
 
-    eventID = ''
+    eventID = 'e'
     x = 0
     while(True):
         x = random.randint(1,100)
-        eventID = str(x)
+        eventID += str(x)
         if(eventID not in db):
             break
 

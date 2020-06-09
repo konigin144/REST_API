@@ -1,6 +1,9 @@
 # REST_API
 
-TS lab project
+Little University project - Exam Timetable
 
-Python
-Flask
+Python and Flask + simple HTML website
+
+How to run:
+venv\Scripts\activate
+flask run --host=0.0.0.0

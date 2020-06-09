@@ -1,14 +1,14 @@
 <html>
     <head>
         {% if title %}
-        <title>{{ title }} - Session Calendar</title>
+        <title>{{ title }} - Exams Timetable</title>
         {% else %}
-        <title>Session Calendar</title>
+        <title>Exams Timetable</title>
         {% endif %}
     </head>
     <body>
         <div>
-            Session Calendar:
+            Exams Timetable:
             <a href="{{ url_for('index') }}">Home</a>
             <a href="{{ url_for('add') }}">Add</a>
             <a href="{{ url_for('get_events') }}">Events</a>
